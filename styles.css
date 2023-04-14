@@ -1,0 +1,188 @@
+html{
+  scroll-behavior: smooth;
+}
+.home-image{
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block; 
+}
+#home{
+  background-color: #b67cdf;
+  height: 100vh;
+  font-size: 40px;
+}
+
+@media (min-width: 769px){
+  
+  .services-grid{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  }
+  .cloud,.service,.work,.collab,.fast{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    
+  }
+  #about{
+    font-size: 35px;
+    
+  }
+
+  .img{
+    width: 187px;
+    height: auto;
+  }
+  .get-started-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: #8b67cd;
+    padding: 15px 50px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+  }
+  .get-started-button:hover{
+    background-color: #4f4269;
+  }
+  h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+  }
+
+}
+
+
+
+
+
+/* CCS CODE FOR MOBILE PHONE */
+@media only screen and (max-width: 768px){
+  body{
+    background-color: #fafafc;
+    margin: 0;
+    
+  }
+ 
+  .contents{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+.cloud,.service,.work,.collab,.fast{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   width: 90%;
+  }
+  
+
+  .img{
+    height: 300px;
+    width: auto;
+
+  }
+
+  .get-started-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: #8b67cd;
+    padding: 15px 50px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .get-started-button:hover{
+    background-color: #4f4269;
+  }
+  h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+  }
+  h2{
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
+  #about{
+    font-style: normal;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  h4{
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.to-top{
+  border-radius: 20px;
+  width: 45px;
+  height: 45px;
+}
+
+
+
+
+p{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+
+
+
+.footer{
+  display: none;}
+
+}
